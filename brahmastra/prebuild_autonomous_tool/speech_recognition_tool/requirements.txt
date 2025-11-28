@@ -1,0 +1,16 @@
+# Speech Recognition Tool Requirements
+# =====================================
+
+# Core speech recognition
+SpeechRecognition>=3.10.0
+
+# Offline speech recognition (fast, no internet needed)
+pocketsphinx>=5.0.0
+
+# Audio input/output (requires Python 3.10 or 3.11)
+pyaudio>=0.2.13
+google-generativeai>=0.3.0
+
+# Additional dependencies (usually auto-installed)
+# setuptools>=65.0.0
+# wheel>=0.38.0
